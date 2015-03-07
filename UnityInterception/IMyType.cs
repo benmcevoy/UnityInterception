@@ -19,15 +19,12 @@ namespace UnityInterception
 
     public class MyType1 : IMyType1
     {
-
         [Log]
         public void Dosomething()
         {
             Console.WriteLine("IMyType1 is doing shit");
         }
     }
-
-
 
     public class MyType2 : IMyType2
     {
@@ -40,7 +37,6 @@ namespace UnityInterception
 
     public class MyType : IMyType
     {
-
         [Log]
         public void Dosomething()
         {

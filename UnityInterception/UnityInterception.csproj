@@ -60,6 +60,7 @@
     <Compile Include="ILogger.cs" />
     <Compile Include="IMyType.cs" />
     <Compile Include="LogAttribute.cs" />
+    <Compile Include="LoggingCallHandler.cs" />
     <Compile Include="LoggingInterceptionBehavior.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using Microsoft.Practices.Unity.InterceptionExtension;
 
 namespace UnityInterception
 {
-
     public class LoggingInterceptionBehavior : IInterceptionBehavior
     {
         private readonly ILogger _logger;
